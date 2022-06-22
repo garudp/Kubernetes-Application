@@ -12,7 +12,7 @@ spec:
         app: redis-cart
     spec:
       nodeSelector:
-        kubernetes.io/hostname: test-worker-2
+        kubernetes.io/hostname: ip-172-31-40-48.eu-central-1.compute.internal
       containers:
       - name: redis
         image: redis:alpine
